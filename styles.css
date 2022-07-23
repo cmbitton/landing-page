@@ -87,10 +87,10 @@ body {
 }
 
 .info-image {
-    width: 150px;
-    height: 150px;
+    width: 175px;
+    height: 175px;
     border: 2px solid #3882F6;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 .middle-content {
@@ -99,20 +99,31 @@ body {
     margin: 0px;
     text-align: center;
     justify-content: space-between;
+    
 }
 
 .info-card {
     display: flex;
     flex-direction: column;
-    flex: 1 1 auto;
+    flex: 0 1 auto;
+    align-items: center;
 }
 
 .middle-info-cards {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    flex-wrap: nowrap;
+    margin: 0px 12%;
+    justify-content: center;
+    gap: 8%;
 }
 
 .info-text {
-    width: 150px;
+    width: 175px;
+}
+
+.middle-heading {
+    margin: 40px 0px;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937
 }
